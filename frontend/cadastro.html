@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produtos</title>
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+
+<body>
+    <div class="menu-left">
+        <div class="logo">
+            <img src="images/log.png">
+        </div>
+        <ul class="sweet">
+            <li class="sweet-order">
+                Sweet Order
+            </li>
+        </ul>
+        <ul class="menu-option">
+            <a href="./listproducts.html" style="text-decoration: none;">
+                <li>Produtos
+                    <img src="images/pedaco-de-bolo 1.svg" class="icone-bolo">
+                </li>
+            </a>
+            <li> Categorias
+                <img class="icone-category" src="images/mdi_category-outline.svg">
+            </li>
+            <li>Pedidos
+                <img class="icone-pedidos" src="images/ion_receipt-outline.svg">
+            </li>
+            <li>Relatórios
+                <img class="icone-relatorio" src="images/icon-park-outline_analysis.svg">
+            </li>
+            <li>Configurações
+                <img class="icone-config" src="images/uil_setting.svg">
+            </li>
+            <li>Perfil
+                <img class="icone-perfil" src="images/iconamoon_profile.svg">
+            </li>
+        </ul>
+        <a href="./login.html" style="text-decoration: none;">
+            <ul class="sair">
+                <li>Sair
+                    <img class="icone-sair" src="images/Vector.svg">
+                </li>
+            </ul>
+        </a>
+    </div>
+    <div class="global">
+        <div>
+            <h2 class="title-h2">Cadastrar Produto</h2>
+        </div>
+        <div class="title">
+            <div class="container">
+                <form method="POST">
+                    <div class="grupo">
+                        <input id="id" hidden />
+                        <div class="grupo-in">
+                            <label class="nome_produto" for="nome_produto">Nome do Produto:</label>
+                            <input class="description" type="text" id="description" placeholder="Insira o nome do produto">
+                        </div>
+                        <div class="grupo-in">
+                            <label class="qtd_produto" for="qtd_produto">Quantidade:</label>
+                            <input class="quantity" type="number" id="quantity" placeholder="Insira a quantidade">
+                        </div>
+                    </div>
+                    <div class="grupo">
+                        <div class="grupo-in">
+                            <label class="valor_produto" for="valor_produto">Valor</label>
+                            <input class="price" type="number" id="price">
+                        </div>
+                        <div class="grupo-in">
+                            <label class="type_price" for="type_price">Tipo de Valor:</label>
+                            <select class="caixa_entrada" id="type_price">
+                                <option value="kg">KG</option>
+                                <option value="unidade">Unidade</option>
+                                <option value="cento">Cento</option>
+                            </select>
+                        </div>
+                    </div>
+                   <div class="grupo">
+                        <div class="grupo-in">
+                            <label class="massa" for="massa">Sabor Massa</label>
+                            <select class="caixa_entrada" id="massa">
+                                <option value="baunilha">Baunilha</option>
+                                <option value="chocolate">Chocolate</option>
+                                <option value="morango">Morango</option>
+                                <option value="sem_sabor">Sem Sabor (pão de ló)</option>
+                            </select>
+                        </div>
+                        <div class="grupo-in">
+                            <label class="sabor" for="sabor">Sabor Recheio</label>
+                            <select class="caixa_entrada" id="sabor">
+                                <option value="leite_ninho">Leite Ninho</option>
+                                <option value="brigadeiro">Brigadeiro</option>
+                                <option value="morango">Morango</option>
+                                <option value="doce_leite">Doce de Leite</option>
+                            </select>
+                        </div>
+                   </div>
+                    <button type="button" class="btn btn-primary" onclick="cadastrarProduto()">Confirmar
+                        <img class="icone-save" src="images/save.svg">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div>
+        <script src="products2.js"></script>
+</body>

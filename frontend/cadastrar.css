@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Handlee&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Culinaria-e-confeitaria-red.-certo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo img {
+    top: 10px;
+    max-height: 100px;
+    left: 50px;
+    position: relative;
+}
+
+.nome_produto {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    top: 15px;
+}
+
+.qtd_produto {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+
+.quantity {
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(184, 158, 143, 0.12);
+    border: 0.5px solid rgb(8 24 38 / 8%);
+    padding-left: 10px;
+    text-align: left;
+}
+
+.description {
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(184, 158, 143, 0.12);
+    border: 0.5px solid rgb(8 24 38 / 8%);
+    padding-left: 10px;
+    text-align: left;
+}
+
+.valor_produto {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+
+.price {
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background: rgba(184, 158, 143, 0.12);
+    border: 0.5px solid rgb(8 24 38 / 8%);
+    padding-left: 10px;
+    text-align: left;
+}
+
+.type_price {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    text-align: left;
+}
+
+.massa {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    top: 15px;
+    text-align: left;
+}
+
+.sabor {
+    color: #472929;
+    font-family: 'Roboto', regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    text-align: left;
+}
+
+.caixa_entrada {
+    border-radius: 10px;
+    border: 0;
+    background: rgba(184, 158, 143, 0.12);
+    width: 365px;
+    font-family: 'Roboto', regular;
+    font-size: 15px;
+    height: 45px;
+    border: 0.5px solid rgb(8 24 38 / 8%);
+}
+
+.salvar {
+    border-radius: 10px;
+    background: rgba(89, 25, 2, 0.60);
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 121px;
+    border: 0;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.menu-left {
+    width: 200px;
+    height: 100vh;
+    flex-shrink: 0;
+    border-radius: 0px 20px 20px 0px;
+    background: #D99F7E;
+}
+
+.menu-option,
+li {
+    top: 10px;
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    color: rgba(89, 25, 2, 1);
+    font-family: 'Roboto', regular;
+    font-size: 20px;
+}
+
+.sair {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    color: rgba(89, 25, 2, 1);
+    font-family: 'Roboto', regular;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+li {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.title {
+    position: absolute;
+    width: 1125px;
+    height: 89vh;
+    left: 212px;
+    border-radius: 2%;
+    display: flex;
+    top: 70px;
+    background-color: rgba(232, 205, 189, 0.10);
+    border: 0.5px solid rgb(8 24 38 / 8%);
+}
+
+.global {
+    left: 212px;
+    display: flex;
+}
+
+.title-h2 {
+    font-family: 'Roboto', regular;
+    position: absolute;
+    top: 0;
+    left: 212px;
+}
+
+.icone-bolo {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-category {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-pedidos {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-relatorio {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-config {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-perfil {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.icone-sair {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.sweet-order {
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    padding: 0px;
+    position: relative;
+}
+
+.container {
+    height: 0;
+    display: flex;
+    margin: 40px auto;
+    margin-top: 125px;
+}   
+
+
+input::placeholder {
+    text-align: left;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    background: rgba(89, 25, 2, 0.60);
+    width: 150px;
+    height: 30px;
+    position: relative;
+    border: 0;
+    font-size: 15px;
+    color: #FFF;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 320px;
+    cursor: pointer;
+}
+
+.grupo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-in {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icone-save{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
